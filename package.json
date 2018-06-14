@@ -1,0 +1,20 @@
+{
+  "name": "welfare-fraud-killer",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "rm -f www/precache* && webpack -p",
+    "pretest": "npm run build",
+    "test": "node test",
+    "deploy": "npm t && firebase deploy"
+  },
+  "license": "Unlicense",
+  "files": [
+    "www"
+  ],
+  "devDependencies": {
+    "web-app-scripts": "https://bitbucket.org/dk00/prettier/downloads/web-app-scripts-0.0.3-next.5.tgz"
+  },
+  "private": true
+}

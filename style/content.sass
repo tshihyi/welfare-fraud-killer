@@ -1,0 +1,34 @@
+$header-height: 89px
+
+.wrap
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+
+.header
+  height: $header-height
+
+.mainNav
+  margin: 0
+
+.breadcrumb
+  margin: 0 1rem
+  padding: 1rem 1.5rem
+  background-position: left
+
+.footer
+  margin-top: auto
+
+ul.jd_menu
+  display: flex
+  li
+    float: none
+  ul
+    display: block
+    z-index: -1
+    opacity: 0
+    transition: opacity 0.75s ease, z-index 0s 0.75s
+  li:hover ul
+    z-index: 1
+    opacity: 0.9
+    transition: opacity 0.75s ease

@@ -1,0 +1,11 @@
+{
+  "name": "Welfare Fraud Killer",
+  "short_name": "wfk",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "icons": [{
+    "src": "favicon.ico"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone"
+}
