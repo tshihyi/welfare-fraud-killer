@@ -23,6 +23,10 @@ ul.jd_menu
   display: flex
   li
     float: none
+    > a
+      display: block
+      position: sticky
+      top: 0
   ul
     display: block
     z-index: -1
@@ -32,3 +36,6 @@ ul.jd_menu
     z-index: 1
     opacity: 0.9
     transition: opacity 0.75s ease
+ul.jd_menu li li.list
+  background: #ddd
+  opacity: 0.8
